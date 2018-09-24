@@ -1,0 +1,97 @@
+@import "profile-settings-block/profile-settings.scss";
+
+@media (min-width: $mobile) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .profile__name {
+        display: block;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .profile__id {
+        display: block;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: rgb(104, 163, 163);
+    }
+    .profile__logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%; 
+        background: url("../img/Univerсity.png") no-repeat;
+        background-size: contain;
+        background-size: auto 80px;
+    }
+    .profile__btn-copy {
+        width: max-content;
+        font-size: 13px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: rgb(233, 223, 226);
+        border: 0;
+        color: inherit;
+        &:hover {
+            border: 1px solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+            outline-color: rgba(255, 255, 255, 0);
+            outline-offset: 15px;
+            text-shadow: 1px 1px 2px #427388; 
+        }
+        &:active {
+            border: 1px solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+            outline-color: rgba(255, 255, 255, 0);
+            outline-offset: 15px;
+            text-shadow: 1px 1px 2px #427388; 
+        }
+    }
+}
+
+@media (min-width: $tablet) {
+    .profile {
+        flex-direction: row;
+    }
+    .profile__container-logo {
+        width: 100%;
+        min-height: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .profile__logo {
+        width: 120px;
+        height: 120px;
+        background-size: auto 120px;
+    }
+    .arrow{
+        width: 0px;
+        height: 0px;
+        border: 20px solid transparent;
+        border-top-color: rgb(0, 0, 0);
+        margin: 0;
+        padding: 0;
+        float: left;
+        transform: rotate(270deg) translate(0px, 25px);
+        -webkit-transform: rotate(270deg) translate(0px, 25px);
+        -moz-transform: rotate(270deg) translate(0px, 25px);
+        -o-transform: rotate(270deg) translate(0px, 25px);
+        -ms-transform: rotate(270deg) translate(0px, 25px);
+      }
+      .arrow:before{
+        content:'';
+        width: 0px;
+        height: 0px;
+        border: 10px solid transparent;
+        border-top-color: white;
+        display: inline-block;
+        transform: rotate(270deg) translate(0px, 25px);
+        -webkit-transform: rotate(270deg) translate(0px, 25px);
+        -moz-transform: rotate(270deg) translate(0px, 25px);
+        -o-transform: rotate(270deg) translate(0px, 25px);
+        -ms-transform: rotate(270deg) translate(0px, 25px);
+      }
+}

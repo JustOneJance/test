@@ -1,0 +1,11 @@
+@media (min-width: $mobile) {
+    .copyright__name {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .copyright__value {
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+}

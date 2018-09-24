@@ -1,0 +1,33 @@
+@import "copyright";
+@import "social";
+
+@media (min-width: $mobile) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .link-btn {
+        display: block;
+        min-height: 30px;
+        text-transform: uppercase;
+        &:hover {
+            color: #c92323;
+        }
+    }
+}
+
+@media (min-width: $tablet) {
+    .footer {
+        margin-left: $margin-header;
+        margin-right: $margin-header;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .link-btn {
+        min-width: 100px;
+    }
+    .link-btn:first-of-type {
+        margin-left: auto;
+    }
+}
