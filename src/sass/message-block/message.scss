@@ -1,6 +1,7 @@
 @media (min-width: $mobile) {
     .message {
         display: flex;
+        max-width: 100%;
     }
 
     .message__name {
@@ -9,6 +10,8 @@
     }
 
     .message__value {
+        max-width: 100%;
+        align-self: stretch;
         text-transform: initial;
         font-size: 15px;
     }

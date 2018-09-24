@@ -1,0 +1,13 @@
+@media (min-width: $tablet) {
+    .column-left {
+        min-width: 280px;
+        padding-right: 40px;
+    }
+    .column-right {
+        max-width: 100%;
+        align-items: stretch;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-basis: 100%;        
+    }
+}

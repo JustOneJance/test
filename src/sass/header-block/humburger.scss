@@ -1,0 +1,23 @@
+@media (min-width: $mobile) {
+  .humburger {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-image: url(../img/icon-gumburger.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: $tablet) {
+  .humburger {
+    display: none;
+  }
+}
