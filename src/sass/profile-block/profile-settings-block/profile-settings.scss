@@ -2,33 +2,40 @@
     .profile-settings {
         padding-top: 30px;
     }
+
     .profile-settings__item {
         display: flex;
         width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .profile-settings__name {
         display: block;
         width: 37%;
         font-weight: bold;
     }
+
     .profile-settings__value {
         display: block;
         width: 63%;
         text-transform: capitalize;
     }
+
     .profile-settings__value a{
         text-transform: lowercase;
         color: rgb(127, 173, 189);
+
         &:hover {
             color: $link-hover;
         }
+
         &:active {
             color: gray;
         }
     }
 }
+
 
 @media (min-width: $mobile) {
     .pofile-settings {

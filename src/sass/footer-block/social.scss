@@ -2,6 +2,7 @@
   .contacts__container {
     display: flex;
   }
+
   .social {
     display: block;
     width: 24px;
@@ -11,28 +12,33 @@
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.5;
+
     &--fb {
       background-image: url("../img/facebook-icon.png");
     }
+
     &--inst {
       background-image: url("../img/Instagram-icon.png");
     }
+
     &--twitter {
       background-image: url("../img/twitter-icon.png");
     }
+
     &:hover {
       opacity: 1;
     }
+
     &:focus {
       opacity: 1;
     }
   }
 }
 
+
 @media (min-width: $tablet) {
   .contacts {
     display: flex;
     width: auto;
   }
-
 }

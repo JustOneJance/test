@@ -2,15 +2,18 @@
     .message {
         display: flex;
     }
+
     .message__name {
         font-size: 20px;
         text-transform: capitalize;
     }
+
     .message__value {
         text-transform: initial;
         font-size: 15px;
     }
 }
+
 
 @media (min-width: $tablet) {
     .icon--message {
