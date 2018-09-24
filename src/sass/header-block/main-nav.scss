@@ -5,11 +5,11 @@
     }
     .main-nav__item a {
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: normal;
         text-transform: uppercase;
         &:hover {
-            color: #c92323;
+            color: $link-hover;
         }
     }
     .main-nav__search {
@@ -18,7 +18,7 @@
     .main-nav__search form {
         position: relative;
         width: 230px;
-        margin: 0 auto;
+        margin: inherit
     }
     .main-nav__search button {
         border: none;
@@ -52,6 +52,6 @@
         margin-right: auto;
     }
     .main-nav__item {
-        padding: 5px;
+        padding: 12px;
     }
 }

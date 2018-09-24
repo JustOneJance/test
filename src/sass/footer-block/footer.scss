@@ -10,9 +10,12 @@
     .link-btn {
         display: block;
         min-height: 30px;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
         text-transform: uppercase;
         &:hover {
-            color: #c92323;
+            color: $link-hover;
         }
     }
 }
@@ -21,6 +24,7 @@
     .footer {
         margin-left: $margin-header;
         margin-right: $margin-header;
+        margin-top: 20px;
         flex-direction: row;
         justify-content: space-between;
     }

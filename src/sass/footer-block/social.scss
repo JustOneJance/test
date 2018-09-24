@@ -1,27 +1,24 @@
 @media (min-width: $mobile) {
-  .contacts {
-    width: 100%;
+  .contacts__container {
+    display: flex;
   }
   .social {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
     &--fb {
-      background: url("../img/spritesheet.png") no-repeat;
-      background-position: -47px -5px;
-      opacity: 0.5;
+      background-image: url("../img/facebook-icon.png");
     }
     &--inst {
-      background-image: url("../img/spritesheet.png");
-      background-repeat: no-repeat;
-      background-position: -5px -5px;
-      opacity: 0.5;
+      background-image: url("../img/Instagram-icon.png");
     }
     &--twitter {
-      background-image: url("../img/spritesheet.png");
-      background-repeat: no-repeat;
-      background-position: -89px -5px;
-      opacity: 0.5;
+      background-image: url("../img/twitter-icon.png");
     }
     &:hover {
       opacity: 1;
@@ -34,6 +31,8 @@
 
 @media (min-width: $tablet) {
   .contacts {
+    display: flex;
     width: auto;
   }
+
 }

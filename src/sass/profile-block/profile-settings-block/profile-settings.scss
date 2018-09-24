@@ -10,19 +10,19 @@
     }
     .profile-settings__name {
         display: block;
-        width: 30%;
+        width: 37%;
         font-weight: bold;
     }
     .profile-settings__value {
         display: block;
-        width: 70%;
+        width: 63%;
         text-transform: capitalize;
     }
     .profile-settings__value a{
         text-transform: lowercase;
         color: rgb(127, 173, 189);
         &:hover {
-            color: #c92323;
+            color: $link-hover;
         }
         &:active {
             color: gray;
