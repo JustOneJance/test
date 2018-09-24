@@ -1,2 +1,6 @@
 # test page
-gulp build - for start project
+
+to start:
+npm install
+gulp
+
