@@ -2,5 +2,7 @@
 
 to start:
 npm install
-/n gulp
+
+
+gulp
 
