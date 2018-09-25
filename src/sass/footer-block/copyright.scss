@@ -1,4 +1,8 @@
 @media (min-width: $mobile) {
+    .copyright {
+        text-align: center;
+    }
+    
     .copyright__name {
         font-size: 16px;
         font-weight: bold;
@@ -8,5 +12,11 @@
     .copyright__value {
         font-size: 13px;
         text-transform: capitalize;
+    }
+}
+
+@media (min-width: $tablet) {
+    .copyright {
+        text-align: start;
     }
 }

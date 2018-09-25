@@ -1,13 +1,30 @@
 @media (min-width: $tablet) {
     .column-left {
         min-width: 280px;
-        padding-right: 40px;
+        padding: 15px;
+        box-shadow: $shadow;
+        margin-bottom: 30px;
+        background-color: $block-bg;
+
     }
     .column-right {
         max-width: 100%;
         align-items: stretch;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        flex-basis: 100%;        
+        flex-basis: 100%;
+        background-color: $bg; 
+        padding-bottom: 30px;       
+    }
+}
+
+@media (min-width: $desktop) {
+    .column-right {
+        flex-basis: auto;
+        width: 60%;
+    }
+
+    .column-left {
+        width: 30%;
     }
 }

@@ -37,8 +37,10 @@
 }
 
 
-@media (min-width: $mobile) {
+@media (min-width: $tablet) {
     .pofile-settings {
-        margin-top: 40px;
+        border-top: 1px solid #c0baba;
+        border-bottom: 1px solid #c0baba;
+        
     }
 }

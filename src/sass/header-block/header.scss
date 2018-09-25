@@ -14,12 +14,25 @@
 
 @media (min-width: $tablet) {
     .header {
+        box-sizing: border-box;
         justify-content: space-between;
         flex-direction: row;
-        width: auto;
-        margin-left: $margin-header;
-        margin-right: $margin-header;
-        margin-top: 50px;
-        margin-bottom: 70px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        background-color: $block-bg;
+    }
+}
+
+@media (min-width: $desktop) {
+    .header {
+        padding-left: $margin-header;
+        padding-right: $margin-header;
+    }
+
+    .main-nav {
+        flex-wrap: nowrap;
     }
 }

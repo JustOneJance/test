@@ -1,6 +1,7 @@
 @media (min-width: $mobile) {
   .humburger {
     position: absolute;
+    z-index: 10;
     left: 5px;
     top: 0;
     width: 40px;

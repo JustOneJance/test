@@ -19,11 +19,14 @@
 
 
 @media (min-width: $tablet) {
-    .icon--message {
-        width: 200px;
-        background: url("../img/messages-icon.png");
-        background-repeat: no-repeat;
-        background-size: 40px 40px;
-        background-position-x: center;
-    }
+   .message {
+       box-shadow: $shadow;
+       background-color: $block-bg;
+   }
+
+   .message__text {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 15px;
+   }
 }
