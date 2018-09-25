@@ -31,3 +31,9 @@
         }
     }
 }
+
+@media (min-width: $tablet) {
+    button.profile__btn-copy {
+        max-height: 515px;
+    }
+}

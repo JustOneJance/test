@@ -22,9 +22,12 @@
     .column-right {
         flex-basis: auto;
         width: 60%;
+        max-height: 630px;
+        overflow: auto;
     }
 
     .column-left {
         width: 30%;
+        max-height: 630px;
     }
 }

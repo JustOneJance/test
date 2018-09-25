@@ -58,17 +58,27 @@
         background-color: $bg;
         padding-top: 40px;
     }
+
     .profile__container-logo {
         width: 100%;
         min-height: 140px;
+        padding: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .profile__logo {
         width: 120px;
         height: 120px;
         background-size: auto 120px;
+    }
+
+    .profile__name {
+        margin-bottom: 10px;
+    }
+    .profile__id {
+        margin-bottom: 10px;
     }
 }
 
