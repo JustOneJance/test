@@ -14,7 +14,8 @@
         flex-wrap: wrap;
         flex-basis: 100%;
         background-color: $bg; 
-        padding-bottom: 30px;       
+        padding-bottom: 30px;  
+        overflow: hidden;     
     }
 }
 
@@ -23,7 +24,7 @@
         flex-basis: auto;
         width: 60%;
         max-height: 630px;
-        overflow: auto;
+        overflow: hidden;
     }
 
     .column-left {
